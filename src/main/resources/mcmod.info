@@ -1,14 +1,14 @@
 [
 {
-  "modid": "examplemod",
-  "name": "Example Mod",
-  "description": "Example placeholder mod.",
+  "modid": "oreforge",
+  "name": "Ore Forge",
+  "description": "A mod that Reworks the way minecraft Crafting and tollmaking works.",
   "version": "${version}",
   "mcversion": "${mcversion}",
-  "url": "",
+  "url": "https://github.com/MggMuggins/OreForge",
   "updateUrl": "",
   "authorList": ["ExampleDude"],
-  "credits": "The Forge and FML guys, for making this example",
+  "credits": "Currently, SamwiseFilmore has done all of the code, and BlueWhizard For models/textures. Buruzu is going to help with code later, and he has all the concept work.",
   "logoFile": "",
   "screenshots": [],
   "dependencies": []
