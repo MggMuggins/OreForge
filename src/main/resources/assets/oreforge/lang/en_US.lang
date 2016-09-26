@@ -1,0 +1,8 @@
+#English Lang file for OreForge
+#Make sure to add anything you create here that is new!
+
+#Items
+item.hammer.name=Hammer
+
+#Blocks
+tile.floor.name=Floor
