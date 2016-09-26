@@ -1,5 +1,6 @@
 package com.oreforge.oreforge;
 
+import com.oreforge.oreforge.init.OFBlocks;
 import com.oreforge.oreforge.init.OFItems;
 import com.oreforge.oreforge.proxies.CommonProxy;
 import cpw.mods.fml.common.Mod;
@@ -21,6 +22,7 @@ public class OreForge {
 	@Mod.EventHandler
 	public void preinit(FMLPreInitializationEvent event)
 	{
+		OFBlocks.registerBlocks();
 		OFItems.registerItems();
 	}
 	
