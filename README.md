@@ -14,15 +14,18 @@ Things to work on:
 
 # To Contribute:
 To complete these steps, you will need the OpenJDK 8, Eclipse(or IntelliJ), Gradle, and Git.
-1.Create a fork of this repository under your Github account
 
-2.Clone your fork to your machine, in your eclipse workspace
+1. Create a fork of this repository under your Github account, by clicking the Fork button at the top of the screen. This provides you a version of this repo that you are able to acess and edit at will. Your changes will go through this fork when you open a pull request, but we'll talk about this later.
 
-3.Navigate to the repository directory in a terminal (Using <code>cd</code>)
+2. Clone your fork to your machine, in your eclipse workspace (use <code>git clone [url to your forked repo]</code>, after navigating to your workspace directory in the command line using <code>cd</code>. If you don't have a workspace, either create one in your user directory(on linux), or run eclipse).
 
-4.Run <code>./gradlew setupDecompWorkspace</code> Then run <code>./gradlew eclipse</code>. (You can run the commands all at once by combining them like this: <code>./gradlew setupDecompWorkspace eclipse</code>) (on Windows, remove the ./ from the command) (If you're using IntelliJ IDEA, replace the <code>eclipse</code> keyword with <code>IDEA</code>)
-5.Open up eclipse, and give it the path to your default workspace (or a directory level above wherever you cloned your fork)
+3. Navigate to the repository directory in a terminal (Using <code>cd</code>, you should just have to type <code>cd OreForge</code>)
 
-6.In eclipse, use New > Project, and call it the name of your fork. It should change the dialouge box. Click OK for any other windows that pop up, and you should be good to go to start contributing! (A good tool to use with eclipse is egit, which can be found in the Cononical repository)
+4. Run <code>./gradlew setupDecompWorkspace</code> Then run <code>./gradlew eclipse</code>. (You can run the commands all at once by combining them like this: <code>./gradlew setupDecompWorkspace eclipse</code>) (on Windows, remove the ./ from the command) (If you're using IntelliJ IDEA, replace the <code>eclipse</code> keyword with <code>IDEA</code>) These commands set up the gradle environment so that it is possible to keep a build record.
 
-7.Either with egit or the command line version of git or using egit through Eclipse, commit your local changes to your local clone of your fork. Push those changes to your fork on Github. Then open a pull request to here. Make sure that your fork and local repo are up to date before you start editing!
+5. Open up eclipse, and give it the path to your default workspace (or a directory level above wherever you cloned your fork)
+
+6. In eclipse, use New > Project, and call it the name of your fork. It should change the dialouge box, by graying out most of those input fields. Click OK(or Create, or whatever the confimation button it), and click OK for any other windows that pop up. This step sets up your repository as an eclipse workspace. You now should be good to go to start contributing! (A good tool to use with eclipse is egit, which can be found in the Cononical repository)
+
+# Pushing Changes to Github
+1. Before you start editing your local clone, make sure that your fork is up to date with this repo (there should be some buttons somewhere. Then navigate to your OreForge directory in your workspace, and run <code>git pull</code>. This updates your local clone to the current state of your fork.
