@@ -1,5 +1,6 @@
 package com.oreforge.oreforge;
 
+import com.oreforge.oreforge.crafting.Recipes;
 import com.oreforge.oreforge.init.OFBlocks;
 import com.oreforge.oreforge.init.OFItems;
 import com.oreforge.oreforge.proxies.CommonProxy;
@@ -29,7 +30,7 @@ public class OreForge {
 	@Mod.EventHandler
 	public void init(FMLInitializationEvent event)
 	{
-		
+		Recipes.init();
 	}
 	
 	@Mod.EventHandler

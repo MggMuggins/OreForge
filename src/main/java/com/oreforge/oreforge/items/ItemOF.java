@@ -4,6 +4,7 @@ import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.Item;
 
 import com.oreforge.oreforge.OEReference;
+//import com.oreforge.oreforge.tabs.ModTabs;
 
 public class ItemOF extends Item {
 	
