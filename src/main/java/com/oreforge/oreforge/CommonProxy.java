@@ -1,7 +1,7 @@
 package com.oreforge.oreforge;
 
+import com.oreforge.oreforge.blocks.OFBlocks;
 import com.oreforge.oreforge.crafting.Recipes;
-import com.oreforge.oreforge.init.OFBlocks;
 import com.oreforge.oreforge.items.OFItems;
 
 import cpw.mods.fml.common.event.FMLInitializationEvent;

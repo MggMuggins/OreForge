@@ -3,6 +3,7 @@
 
 #Items
 item.hammer.name=Hammer
+item.tongs.name=Tongs
 
 #Blocks
 tile.floor.name=Floor

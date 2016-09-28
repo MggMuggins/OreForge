@@ -3,7 +3,8 @@ package com.oreforge.oreforge.crafting;
 import net.minecraft.init.Blocks;
 import net.minecraft.init.Items;
 import net.minecraft.item.ItemStack;
-import com.oreforge.oreforge.init.OFBlocks;
+
+import com.oreforge.oreforge.blocks.OFBlocks;
 import com.oreforge.oreforge.items.OFItems;
 
 import cpw.mods.fml.common.registry.GameRegistry;
@@ -25,6 +26,14 @@ public class Recipes {
 			"AAA",
 			"AAA",
 			'A', Blocks.cobblestone,
+		});
+		GameRegistry.addShapedRecipe(new ItemStack(OFItems.tongs), new Object[]
+		{
+			" A ",
+			"A A",
+			"B B",
+			'A', Items.iron_ingot,
+			'B', Items.leather,
 		});
 	}
 

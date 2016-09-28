@@ -1,7 +1,6 @@
-package com.oreforge.oreforge.init;
+package com.oreforge.oreforge.blocks;
 
 import net.minecraft.block.Block;
-import com.oreforge.oreforge.blocks.OFFloor;
 import com.oreforge.oreforge.helpers.RegisterHelper;
 
 public class OFBlocks {
