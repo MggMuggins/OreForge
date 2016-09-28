@@ -4,7 +4,7 @@ import net.minecraft.init.Blocks;
 import net.minecraft.init.Items;
 import net.minecraft.item.ItemStack;
 import com.oreforge.oreforge.init.OFBlocks;
-import com.oreforge.oreforge.init.OFItems;
+import com.oreforge.oreforge.items.OFItems;
 
 import cpw.mods.fml.common.registry.GameRegistry;
 

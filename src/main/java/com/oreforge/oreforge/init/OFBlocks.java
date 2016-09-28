@@ -8,9 +8,9 @@ public class OFBlocks {
 	
 	public static Block floor = new OFFloor("floor");
 	
-	public static void registerBlocks()
+	public static final void init()
 	{
 		RegisterHelper.registerBlock(floor);
 	}
-
+	
 }
