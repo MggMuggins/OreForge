@@ -7,3 +7,6 @@ item.tongs.name=Tongs
 
 #Blocks
 tile.floor.name=Floor
+
+#Other Stuff
+itemGroup.tabOreForge=Ore Forge

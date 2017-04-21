@@ -1,9 +1,9 @@
-package com.oreforge.oreforge.blocks;
+package com.oreforge.oreforge.block;
 
 import net.minecraft.block.Block;
 import com.oreforge.oreforge.helpers.RegisterHelper;
 
-public class OFBlocks {
+public final class OFBlocks {
 	
 	public static Block floor = new OFFloor("floor");
 	

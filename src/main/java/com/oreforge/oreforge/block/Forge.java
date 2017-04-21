@@ -1,6 +1,5 @@
-package com.oreforge.oreforge.blocks;
+package com.oreforge.oreforge.block;
 
-import net.minecraft.nbt.NBTTagCompound;
 import net.minecraft.tileentity.TileEntity;
 
 public class Forge extends TileEntity {

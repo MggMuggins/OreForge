@@ -1,11 +1,12 @@
 package com.oreforge.oreforge.tabs;
 
+import com.oreforge.oreforge.item.OFItems;
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.Item;
 import cpw.mods.fml.relauncher.Side;
 import cpw.mods.fml.relauncher.SideOnly;
 
-public class OreForgeTab extends CreativeTabs{
+public class OreForgeTab extends CreativeTabs {
 	String name;
 	
 	public OreForgeTab(int par1, String par25tr)
@@ -17,7 +18,7 @@ public class OreForgeTab extends CreativeTabs{
 	@SideOnly(Side.CLIENT)
 	public Item getTabIconItem()
 	{
-		return null;
+		return OFItems.tongs;
 	}
 
 }

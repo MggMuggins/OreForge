@@ -1,6 +1,6 @@
-package com.oreforge.oreforge.items;
+package com.oreforge.oreforge.item;
 
-import net.minecraft.creativetab.CreativeTabs;
+import com.oreforge.oreforge.tabs.OFTabs;
 import net.minecraft.item.Item;
 import net.minecraft.item.Item.ToolMaterial;
 import net.minecraftforge.common.util.EnumHelper;
@@ -16,10 +16,14 @@ public class OFItems {
 	
 	public static final void init()
 	{
-		tongs = new Item().setUnlocalizedName("tongs").setCreativeTab(CreativeTabs.tabTools).setTextureName(OFReference.MODID + ":" + "tongs");
+		tongs = new Item()
+				.setUnlocalizedName("tongs")
+				.setCreativeTab(OFTabs.tabOreForge)
+				.setTextureName(OFReference.MODID + ":" + "tongs");
 		RegisterHelper.registerItem(tongs);
-		
-		GameRegistry.registerItem(hammer = new OFItemHammer("hammer", IRON), "hammer");
+
+        hammer = new OFItemHammer("hammer", IRON);
+		GameRegistry.registerItem(hammer, "hammer");
 	}
 	
 	//public static Item IRON;

@@ -1,8 +1,8 @@
 package com.oreforge.oreforge;
 
-import com.oreforge.oreforge.blocks.OFBlocks;
+import com.oreforge.oreforge.block.OFBlocks;
 import com.oreforge.oreforge.crafting.Recipes;
-import com.oreforge.oreforge.items.OFItems;
+import com.oreforge.oreforge.item.OFItems;
 
 import cpw.mods.fml.common.event.FMLInitializationEvent;
 import cpw.mods.fml.common.event.FMLPostInitializationEvent;
