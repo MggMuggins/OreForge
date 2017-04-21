@@ -1,6 +1,7 @@
 package com.oreforge.oreforge;
 
 import com.oreforge.oreforge.block.OFBlocks;
+import com.oreforge.oreforge.block.OFTileEntities;
 import com.oreforge.oreforge.crafting.Recipes;
 import com.oreforge.oreforge.item.OFItems;
 
@@ -13,6 +14,7 @@ public class CommonProxy {
   public void preInit(FMLPreInitializationEvent event) {
     OFBlocks.init();
     OFItems.init();
+    OFTileEntities.init();
   }
   
   public void init(FMLInitializationEvent event) {

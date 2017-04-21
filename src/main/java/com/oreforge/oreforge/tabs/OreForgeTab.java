@@ -18,7 +18,7 @@ public class OreForgeTab extends CreativeTabs {
 	@SideOnly(Side.CLIENT)
 	public Item getTabIconItem()
 	{
-		return OFItems.tongs;
+		return OFItems.hammer;
 	}
 
 }
